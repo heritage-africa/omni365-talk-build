@@ -1,0 +1,25 @@
+name: Release
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    release:
+        if: contains(github.event.head_commit.message, '--release')
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Install dependencies
+              run: apt update -y && apt install php composer
+
+            - name: Build release
+              run: make all appstore
+
+            - name: Create release
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: gh release create latest ./build/artifacts/spreed.tar.gz
