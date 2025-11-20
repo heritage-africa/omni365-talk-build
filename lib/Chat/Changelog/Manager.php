@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 /**
- * SPDX-FileCopyrightText: 2019 Nextcloud GmbH and Nextcloud contributors
+ * SPDX-FileCopyrightText: 2019 Omni365 GmbH and Omni365 contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 
@@ -61,8 +61,8 @@ class Manager {
 	public function getChangelogs(): array {
 		return [
 			$this->l->t(
-				"## Welcome to Nextcloud Talk!\n"
-				. 'In this conversation you will be informed about new features available in Nextcloud Talk.'
+				"## Welcome to Omni365 Talk!\n"
+				. 'In this conversation you will be informed about new features available in Omni365 Talk.'
 			),
 			$this->l->t('## New in Talk %s', ['6']),
 			$this->l->t('- Microsoft Edge and Safari can now be used to participate in audio and video calls'),
@@ -121,7 +121,7 @@ class Manager {
 			. $this->l->t('- Chat messages can be translated if a translation provider app is registered'),
 			$this->l->t('## New in Talk %s', ['17.1']) . "\n"
 			. $this->l->t('- **Markdown** can now be used in _chat_ messages') . "\n"
-			. $this->l->t('- Webhooks are now available to implement bots. See the documentation for more information https://nextcloud-talk.readthedocs.io/en/latest/bot-list/') . "\n"
+			. $this->l->t('- Webhooks are now available to implement bots. See the documentation for more information https://Omni365-talk.readthedocs.io/en/latest/bot-list/') . "\n"
 			. $this->l->t('- Set a reminder on a chat message to be notified later again'),
 			$this->l->t('## New in Talk %s', ['18']) . "\n"
 			. $this->l->t('- Use the **Note to self** conversation to take notes and share information between your devices') . "\n"
@@ -136,8 +136,8 @@ class Manager {
 			. $this->l->t('- Upcoming calls from linked calendar events and out-of-office replacements are now shown in conversations') . "\n"
 			. $this->l->t('- Calls can now be done in a federated way with other Talk servers (requires the High-performance backend)'),
 			$this->l->t('## New in Talk %s', ['20.1']) . "\n"
-			. $this->l->t('- Introducing the Nextcloud Talk desktop client for Windows, macOS and Linux: %s', ['https://nextcloud.com/talk-desktop-install']) . "\n"
-			. $this->l->t('- Summarize call recordings and unread messages in chats with the Nextcloud Assistant') . "\n"
+			. $this->l->t('- Introducing the Omni365 Talk desktop client for Windows, macOS and Linux: %s', ['https://Omni365.com/talk-desktop-install']) . "\n"
+			. $this->l->t('- Summarize call recordings and unread messages in chats with the Omni365 Assistant') . "\n"
 			. $this->l->t('- Improved meetings with recognizing guests invited via their email address, import of participant lists, drafts for polls and downloading call participant lists') . "\n"
 			. $this->l->t('- Archive conversations to stay focused'),
 			$this->l->t('## New in Talk %s', ['21']) . "\n"
