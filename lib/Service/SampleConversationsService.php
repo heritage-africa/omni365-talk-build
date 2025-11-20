@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 /**
- * SPDX-FileCopyrightText: 2025 Nextcloud GmbH and Nextcloud contributors
+ * SPDX-FileCopyrightText: 2025 Omni365 GmbH and Omni365 contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 
@@ -86,31 +86,31 @@ class SampleConversationsService {
 
 		$this->avatarService->setAvatarFromEmoji($room, '💡', null);
 
-		$this->roomService->setDescription($room, $this->l->t('**Nextcloud Talk** is a secure, self-hosted communication platform that integrates seamlessly with the Nextcloud ecosystem.
+		$this->roomService->setDescription($room, $this->l->t('**Omni365 Talk** is a secure, self-hosted communication platform that integrates seamlessly with the Omni365 ecosystem.
 
-#### Key Features of Nextcloud Talk:
+#### Key Features of Omni365 Talk:
 
 * Chat and messaging in private and group chats
 * Voice and video calls
-* File sharing and integration with other Nextcloud apps
+* File sharing and integration with other Omni365 apps
 * Customizable conversation settings, moderation and privacy controls
 * Web, desktop and mobile (iOS and Android)
 * Private & secure communication
 
- Find out more in the [user documentation](https://docs.nextcloud.com/server/latest/user_manual/en/talk/index.html).'));
+ Find out more in the [user documentation](https://docs.Omni365.com/server/latest/user_manual/en/talk/index.html).'));
 
 		$messages = [
-			$this->l->t('# Welcome to Nextcloud Talk
+			$this->l->t('# Welcome to Omni365 Talk
 
-Nextcloud Talk is a private and powerful messaging app that integrates with Nextcloud. Chat in private or group conversations, collaborate over voice and video calls, organize webinars and events, customize your conversations and more.'),
+Omni365 Talk is a private and powerful messaging app that integrates with Omni365. Chat in private or group conversations, collaborate over voice and video calls, organize webinars and events, customize your conversations and more.'),
 			$this->l->t('## 🎨 Format texts to create rich messages
 
-In Nextcloud Talk, you can use Markdown syntax to format your messages. For example, apply **bold** or *italic* formatting, or `highlight texts as code`. You can even create tables and add headings to your text.
+In Omni365 Talk, you can use Markdown syntax to format your messages. For example, apply **bold** or *italic* formatting, or `highlight texts as code`. You can even create tables and add headings to your text.
 
 Need to fix a typo or change formatting? Edit your message by clicking "Edit message" in the message menu.'),
 			$this->l->t('## 🔗 Add attachments and links
 
-Attach files from your Nextcloud Hub using the "+" button. Share items from Files and various Nextcloud apps. Some apps even support interactive widgets, for example, the Text app.')
+Attach files from your Omni365 Hub using the "+" button. Share items from Files and various Omni365 apps. Some apps even support interactive widgets, for example, the Text app.')
 			. "\n\n" . '{FILE:Readme.md}',
 			$this->l->t('## 💭 Let the conversations flow: mention users, react to messages and more
 
@@ -119,7 +119,7 @@ You can mention everybody in the conversation by using %s or mention specific pa
 			'{REPLY}' . $this->l->t('You can reply to messages, forward them to other chats and people, or copy message content.'),
 			$this->l->t('## ✨ Do more with Smart Picker
 
-Simply type "/" or go to the "+" menu to open the Smart Picker where you can attach various content to your messages. You can configure the Smart Picker to be able to add items from Nextcloud apps, GIFs, map locations, AI generated content and much more.'),
+Simply type "/" or go to the "+" menu to open the Smart Picker where you can attach various content to your messages. You can configure the Smart Picker to be able to add items from Omni365 apps, GIFs, map locations, AI generated content and much more.'),
 			$this->l->t('## ⚙️ Manage conversation settings
 
 In the conversation menu, you can access various settings to manage your conversations, such as:
