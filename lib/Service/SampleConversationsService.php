@@ -97,7 +97,7 @@ class SampleConversationsService {
 * Web, desktop and mobile (iOS and Android)
 * Private & secure communication
 
- Find out more in the [user documentation](https://docs.Omni365.com/server/latest/user_manual/en/talk/index.html).'));
+ Find out more in the [user documentation](https://docs.heritage.africa).'));
 
 		$messages = [
 			$this->l->t('# Welcome to Omni365 Talk
