@@ -620,7 +620,7 @@ export default {
 				: null
 
 			// Next Monday 08:00 AM (hidden if Sunday now)
-			// TODO: use getFirstDay from nextcloud/l10n
+			// TODO: use getFirstDay from omni365/l10n
 			const nextWeekTime = (currentDayOfWeek !== 0)
 				? nextMonday.setHours(8, 0, 0, 0)
 				: null

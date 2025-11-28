@@ -68,7 +68,7 @@ export function useSessionIssueHandler(): DeepReadonly<Ref<boolean>> {
 
 		const result = await spawnDialog(ConfirmDialog, {
 			name: t('spreed', 'Duplicate session'),
-			message: t('spreed', 'You are trying to join a conversation while having an active session in another window or device. This is currently not supported by Nextcloud Talk. What do you want to do?'),
+			message: t('spreed', 'You are trying to join a conversation while having an active session in another window or device. This is currently not supported by Omni365 Talk. What do you want to do?'),
 			buttons: [
 				{
 					label: t('spreed', 'Leave this page'),

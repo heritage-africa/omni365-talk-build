@@ -157,7 +157,7 @@
 					target="_blank"
 					rel="noreferrer nofollow"
 					class="external">
-					{{ t('spreed', 'Background blur for Nextcloud instance can be adjusted in the theming settings.') }} ↗
+					{{ t('spreed', 'Background blur for Omni365 instance can be adjusted in the theming settings.') }} ↗
 				</a>
 			</template>
 			<NcCheckboxRadioSwitch

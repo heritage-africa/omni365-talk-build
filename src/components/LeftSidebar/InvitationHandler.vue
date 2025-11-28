@@ -11,7 +11,7 @@
 		close-on-click-outside>
 		<div class="inbox">
 			<p class="inbox__disclaimer">
-				{{ t('spreed', 'Join conversations from remote Nextcloud servers') }}
+				{{ t('spreed', 'Join conversations from remote Omni365 servers') }}
 			</p>
 			<ul v-if="invitationsLoadedCount" class="inbox__list">
 				<li

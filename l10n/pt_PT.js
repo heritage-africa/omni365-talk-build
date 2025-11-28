@@ -15,7 +15,7 @@ OC.L10N.register(
     "Other activities" : "Outras atividades",
     "Talk" : "Falar",
     "Guest" : "Convidado",
-    "## Welcome to Nextcloud Talk!\nIn this conversation you will be informed about new features available in Nextcloud Talk." : "## Bem-vindo ao Nextcloud Talk!\nNesta conversa será informado sobre as novidades disponíveis no Nextcloud Talk.",
+    "## Welcome to omni365 Talk!\nIn this conversation you will be informed about new features available in omni365 Talk." : "## Bem-vindo ao omni365 Talk!\nNesta conversa será informado sobre as novidades disponíveis no omni365 Talk.",
     "## New in Talk %s" : "## Novo no Talk %s",
     "- Microsoft Edge and Safari can now be used to participate in audio and video calls" : "- O Microsoft Edge e o Safari podem, agora, ser utilizados para participar em chamadas áudio e vídeo.",
     "- One-to-one conversations are now persistent and cannot be turned into group conversations by accident anymore. Also when one of the participants leaves the conversation, the conversation is not automatically deleted anymore. Only if both participants leave, the conversation is deleted from the server" : "- Agora as conversas individuais são persistentes e já não podem ser convertidas em conversas de grupo por acidente. Além disso, quando um dos participantes deixa a conversa, esta passa a não ser apagada automaticamente. A conversa só é apagada do servidor se ambos os participantes a deixarem.",

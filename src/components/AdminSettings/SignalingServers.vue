@@ -8,7 +8,7 @@
 		<NcNoteCard
 			v-if="!serversProxy.length"
 			type="warning"
-			:heading="t('spreed', 'Nextcloud Talk setup not complete')">
+			:heading="t('spreed', 'Omni365 Talk setup not complete')">
 			{{ t('spreed', 'Please note that in calls with more than 2 participants without the High-performance backend, participants will most likely experience connectivity issues and cause high load on participating devices.') }}
 			{{ t('spreed', 'Install the High-performance backend to ensure calls with multiple participants work seamlessly.') }}
 
@@ -39,7 +39,7 @@
 		<NcNoteCard
 			v-if="serversProxy.length && !isCacheConfigured"
 			type="warning"
-			:text="t('spreed', 'It is highly recommended to set up a distributed cache when using Nextcloud Talk with a High-performance backend.')" />
+			:text="t('spreed', 'It is highly recommended to set up a distributed cache when using Omni365 Talk with a High-performance backend.')" />
 
 		<ul v-if="serversProxy.length">
 			<SignalingServer
