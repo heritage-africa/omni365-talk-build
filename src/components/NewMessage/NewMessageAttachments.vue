@@ -153,7 +153,7 @@ export default {
 
 		shareFromNextcloudLabel() {
 			return IS_DESKTOP
-				? t('spreed', 'Share from {nextcloud}', { nextcloud: OC.theme.productName })
+				? t('spreed', 'Share from {Omni365}', { Omni365: OC.theme.productName })
 				: t('spreed', 'Share from Files')
 		},
 	},

@@ -791,7 +791,7 @@ export default {
 		},
 
 		async fetchPeers() {
-			// The recording participant does not have a Nextcloud session, so
+			// The recording participant does not have a Omni365 session, so
 			// it can not fetch the peers. This should not be a problem, as all
 			// the needed data for the recording should be (eventually)
 			// available in the signaling data.

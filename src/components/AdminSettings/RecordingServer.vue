@@ -186,7 +186,7 @@ export default {
 				} else if (error === 'CERTIFICATE_EXPIRED') {
 					this.errorMessage = t('spreed', 'Error: Certificate expired')
 				} else if (error === 'TIME_OUT_OF_SYNC') {
-					this.errorMessage = t('spreed', 'Error: System times of Nextcloud server and Recording backend server are out of sync. Please make sure that both servers are connected to a time-server or manually synchronize their time.')
+					this.errorMessage = t('spreed', 'Error: System times of Omni365 server and Recording backend server are out of sync. Please make sure that both servers are connected to a time-server or manually synchronize their time.')
 				} else if (error) {
 					this.errorMessage = t('spreed', 'Error: Server responded with: {error}', data)
 				} else {

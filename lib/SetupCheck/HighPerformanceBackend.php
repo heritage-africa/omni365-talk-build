@@ -105,7 +105,7 @@ class HighPerformanceBackend implements ISetupCheck {
 				return SetupResult::error($this->l->t('Error: Certificate expired'));
 			}
 			if ($error === 'TIME_OUT_OF_SYNC') {
-				return SetupResult::error($this->l->t('Error: System times of Nextcloud server and High-performance backend server are out of sync. Please make sure that both servers are connected to a time-server or manually synchronize their time.'));
+				return SetupResult::error($this->l->t('Error: System times of omni365 server and High-performance backend server are out of sync. Please make sure that both servers are connected to a time-server or manually synchronize their time.'));
 			}
 			if ($error === 'UPDATE_REQUIRED') {
 				$version = $testResult['data']['version'] ?? $this->l->t('Could not get version');
@@ -135,7 +135,7 @@ class HighPerformanceBackend implements ISetupCheck {
 
 		if (!$this->cacheFactory->isAvailable()) {
 			return SetupResult::warning(
-				$this->l->t('It is highly recommended to configure a memory cache when running Nextcloud Talk with a High-performance backend.'),
+				$this->l->t('It is highly recommended to configure a memory cache when running omni365 Talk with a High-performance backend.'),
 				$this->urlGenerator->linkToDocs('admin-cache'),
 			);
 		}
