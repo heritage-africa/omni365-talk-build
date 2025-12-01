@@ -26,4 +26,4 @@ jobs:
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release create latest ./build/artifacts/spreed.tar.gz
+        run: gh release create "$GITHUB_REF_NAME" ./build/artifacts/spreed.tar.gz
